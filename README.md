@@ -29,6 +29,13 @@ The dataset contains information related to:
 * Production
 * Yield
 
+## Dataset Information
+
+- Dataset: Indian Crop Yield Dataset
+- Records: 19,000+ observations
+- Coverage: Multiple Indian states and crop types
+- Features: Crop, State, Year, Rainfall, Fertilizer, Pesticide, Area, Production, Yield
+
 ## Technologies Used
 
 * Python
@@ -48,7 +55,6 @@ Indian_Crop_Yield_Analysis/
 ├── yield_by_state.png
 ├── yield_over_the_years.png
 ├── seasonal_yield_distribution.png
-├── yield_vs_annual_rainfall.png
 └── README.md
 ```
 
@@ -62,10 +68,6 @@ Indian_Crop_Yield_Analysis/
 
 ![Yield Over Years](yield_over_the_years.png)
 
-### Yield vs Annual Rainfall
-
-![Yield Over Years](yield_vs_annual_rainfall.png)
-
 ### Seasonal Yield Distribution
 
 ![Seasonal Yield Distribution](seasonal_yield_distribution.png)
@@ -77,6 +79,10 @@ Indian_Crop_Yield_Analysis/
 * Kharif and Rabi seasons contributed the majority of total agricultural yield.
 * Significant variations in productivity were observed across different states.
 * Agricultural output appears to be influenced by multiple factors beyond rainfall alone.
+
+## Results
+
+The exploratory analysis revealed significant differences in crop yield across Indian states and agricultural seasons. Yield trends generally increased over time, while seasonal factors played a major role in overall agricultural productivity. These findings demonstrate the usefulness of data analytics for understanding agricultural patterns and supporting informed decision-making.
 
 ## How to Run
 
@@ -103,10 +109,3 @@ pip install pandas numpy matplotlib seaborn
 ```bash
 jupyter notebook CropYield.ipynb
 ```
-
-## Future Improvements
-
-* Build machine learning models for crop yield prediction.
-* Compare regression algorithms for forecasting.
-* Develop an interactive dashboard using Streamlit or Power BI.
-* Incorporate additional agricultural and weather datasets.
