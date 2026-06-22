@@ -1,4 +1,4 @@
-# Indian Crops Prediction
+# Indian Crop Yield Analysis
 
 A data analysis and visualization project that explores crop yield trends across India using Python. The project analyzes the relationship between agricultural factors such as rainfall, fertilizer usage, crop seasons, and state-wise production to uncover meaningful insights from crop yield data.
 
@@ -41,10 +41,14 @@ The dataset contains information related to:
 ## Project Structure
 
 ```text
-Indian_Crops_Prediction/
+Indian_Crop_Yield_Analysis/
 │
-├── CropYield.ipynb      # Data analysis notebook
-├── Crop_Yield.csv       # Dataset
+├── CropYield.ipynb
+├── Crop_Yield.csv
+├── yield_by_state.png
+├── yield_over_the_years.png
+├── seasonal_yield_distribution.png
+├── yield_vs_annual_rainfall.png
 └── README.md
 ```
 
@@ -85,7 +89,7 @@ git clone https://github.com/Swaroop-Haridas/Indian_Crop_Yield_Analysis.git
 2. Navigate to the project directory
 
 ```bash
-cd Indian_Crops_Prediction
+cd Indian_Crop_Yield_Analysis
 ```
 
 3. Install dependencies
